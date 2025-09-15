@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main content */
+.main-content {
+  margin-left: 260px; 
+  margin-top: 80px;   
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Page Heading */
+.main-content h2 {
+  margin-bottom: 20px;
+  font-size: 33px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+/* Table styling */
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Table header */
+.patient-table thead {
+  background: rgb(172, 172, 172); 
+  color: #fff;
+  font-weight: bold;
+}
+
+.patient-table th {
+  padding: 14px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Table rows */
+.patient-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  color: #444;
+}
+
+.patient-table tbody tr:hover {
+  background: #f5f5f5;
+  transition: 0.2s;
+}
+
+/* Status tags */
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.status.active {
+  background: #43a047; 
+}
+
+.status.discharged {
+  background:  #007bff;
+}
+
+.status.pending {
+  background: #fbc02d; 
+  color: #000;
+}

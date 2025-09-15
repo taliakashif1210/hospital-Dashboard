@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patients</title>
+  <link rel="stylesheet" href="../../navSidebar/sidebar.css">
+  <link rel="stylesheet" href="../../pages/patients/patient.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div id="sidebar"></div>
+
+  <div class="main-content">
+    <h2>Patients</h2>
+    <table class="patient-table">
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Disease</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Abdullah</td>
+                <td>45</td>
+                <td>Diabetes</td>
+                <td><span class="status active">Admitted</span></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fatima</td>
+                <td>30</td>
+                <td>Flu</td>
+                <td><span class="status active">Admitted</span></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ali Khan</td>
+                <td>50</td>
+                <td>Hypertension</td>
+                <td><span class="status discharged">Discharged</span></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Muhammad Ahmed</td>
+                <td>50</td>
+                <td>Blood Pressure</td>
+                <td><span class="status pending">Pending</span></td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <script src="/loadComponents.js"></script>
+</body>
+</html>

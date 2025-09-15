@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doctors</title>
+  <link rel="stylesheet" href="../../navSidebar/sidebar.css">
+  <link rel="stylesheet" href="../../pages/doctors/doctor.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div id="sidebar"></div>
+  
+  <div class="main-content">
+    <h2>Doctors</h2>
+    <table class="doctor-table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Specialization</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Dr. Sarah Ahmed</td>
+          <td>Cardiologist</td>
+          <td><span class="availability available">Available</span></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Dr. Imran Malik</td>
+          <td>Neurologist</td>
+          <td><span class="availability unavailable">Unavailable</span></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Dr. Ayesha Khan</td>
+          <td>Dermatologist</td>
+          <td><span class="availability on-leave">On Leave</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="/loadComponents.js"></script>
+</body>
+</html>
